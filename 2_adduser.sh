@@ -5,7 +5,7 @@ set -e
 # Ask for username
 read -p "Enter the username to add: " USERNAME
 # create user and add to sudo group
-useradd --gecos "" $USERNAME
+adduser --gecos "" $USERNAME
 usermod -aG sudo $USERNAME
 # Setup SSH for the new user
 mkdir -p /home/$USERNAME/.ssh
