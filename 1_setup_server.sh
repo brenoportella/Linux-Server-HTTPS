@@ -7,7 +7,7 @@ set -e
 # Update repository and upgrade packages
 apt-get update && apt-get upgrade -y
 # Install necessary packages
-apt-get install nginx ufw certbot python3-certbot-nginx curl wget git openssh-server-y
+apt-get install nginx ufw certbot python3-certbot-nginx curl wget git openssh-server -y
 # Restart SSH service
 systemctl restart ssh
 # Setup Firewall
