@@ -1,4 +1,4 @@
-# Project A — Linux HTTPS Server Setup
+# Linux HTTPS Server Setup
 
 ## Objective
 The goal of this project is to transform a fresh Ubuntu Linux installation into a secure HTTPS web server using shell scripts.  
